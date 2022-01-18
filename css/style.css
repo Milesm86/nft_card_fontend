@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #0d192b;
+  width: 90rem;
+  height: 100%; }
+
+.container {
+  margin: 5rem;
+  width: 100%;
+  height: 100%; }
+
+.nft_card {
+  margin: 0 auto;
+  background-color: #14253d;
+  padding: 2rem;
+  width: 50%;
+  border-radius: 1rem; }
+  .nft_card__image {
+    border-radius: 1rem; }
+
+.heading_secondary {
+  display: inline;
+  color: white;
+  font-family: Outfit;
+  font-weight: 600; }
+
+.main_paragraph {
+  color: #8bacda;
+  font-family: Outfit;
+  font-size: 1.125rem;
+  width: 100%; }
+
+.nft_info {
+  display: flex;
+  justify-content: space-between; }
+  .nft_info__price {
+    display: flex; }
+    .nft_info__price .nft_price {
+      display: inline;
+      padding-left: 0.5rem;
+      color: #00fff7;
+      font-family: Outfit;
+      font-weight: 600;
+      font-size: 0.75rem; }
+  .nft_info__time {
+    display: flex; }
+    .nft_info__time .nft_time {
+      padding-right: 0.5rem;
+      color: #8bacda;
+      font-family: Outfit;
+      font-weight: 600; }
+
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  color: #8bacda; }
+
+.attribution a {
+  color: #3e52a3; }
