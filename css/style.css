@@ -20,7 +20,8 @@ body {
   width: 50%;
   border-radius: 1rem; }
   .nft_card__image {
-    border-radius: 1rem; }
+    border-radius: 1rem;
+    margin-bottom: 0.75rem; }
 
 .heading_secondary {
   display: inline;
@@ -29,14 +30,18 @@ body {
   font-weight: 600; }
 
 .main_paragraph {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
   color: #8bacda;
   font-family: Outfit;
   font-size: 1.125rem;
-  width: 100%; }
+  width: 37.75rem; }
 
 .nft_info {
+  width: 37.75rem;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 2rem; }
   .nft_info__price {
     display: flex; }
     .nft_info__price .nft_price {
@@ -53,6 +58,30 @@ body {
       color: #8bacda;
       font-family: Outfit;
       font-weight: 600; }
+
+span {
+  width: 100%;
+  border-bottom: 1px solid white; }
+
+.nft_creator {
+  display: flex;
+  align-items: center; }
+  .nft_creator__img {
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px; }
+  .nft_creator__created {
+    color: #8bacda;
+    font-family: Outfit;
+    font-weight: 400;
+    margin-left: 0.75rem; }
+    .nft_creator__created--name:link, .nft_creator__created--name:visited {
+      text-decoration: none;
+      color: white;
+      cursor: pointer; }
+    .nft_creator__created--name:hover, .nft_creator__created--name:active {
+      color: #00fff7; }
 
 .attribution {
   font-size: 0.6875rem;

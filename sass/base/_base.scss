@@ -27,6 +27,7 @@ body {
 
   &__image {
     border-radius: 1rem;
+    margin-bottom: 0.75rem;
   }
 }
 
@@ -38,15 +39,19 @@ body {
 }
 
 .main_paragraph {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
   color: $color-primary;
   font-family: $main-font;
   font-size: 1.125rem;
-  width: 100%;
+  width: 37.75rem;
 }
 
 .nft_info {
+  width: 37.75rem;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2rem;
 
   &__price {
     display: flex;
@@ -69,6 +74,42 @@ body {
       color: $color-primary;
       font-family: $main-font;
       font-weight: 600;
+    }
+  }
+}
+
+span {
+  width: 100%;
+  border-bottom: 1px solid $color-white;
+}
+
+.nft_creator {
+  display: flex;
+  align-items: center;
+
+  &__img {
+    border: 2px solid $color-white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+  }
+
+  &__created {
+    color: $color-primary;
+    font-family: $main-font;
+    font-weight: 400;
+    margin-left: 0.75rem;
+
+    &--name:link,
+    &--name:visited {
+      text-decoration: none;
+      color: $color-white;
+      cursor: pointer;
+    }
+
+    &--name:hover,
+    &--name:active {
+      color: $color-secondary;
     }
   }
 }
